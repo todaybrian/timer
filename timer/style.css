@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'DejaVuSansMono';
     src: local('DejaVuSansMono'),
-        url('DejaVuSansMono_min.woff2') format('woff2');
+        url('fonts/DejaVuSansMono_min.woff2') format('woff2');
 }
 html {
     height: 100vh;
