@@ -136,7 +136,6 @@ var keys = {};
 document.addEventListener("keydown", e => {
     if (keys[e.keyCode]) return;
     keys[e.keyCode] = true;
-    console.log(e.key);
     if (CONTROLS.hasOwnProperty(e.key)) {
         CONTROLS[e.key]();
     }
@@ -150,7 +149,6 @@ setInterval(() => {
     var t = msToTime(timer.getTime());
     if (timer.editing) {
         var idx = timer.editingPos + Math.floor((timer.editingPos+7-timer.digits)/2);
-        console.log(idx);
         timerElem.innerHTML = t.slice(0, idx) + '<span class="highlighted">' + t[idx] + '</span>' + t.slice(idx+1);
     } else {
         timerElem.innerHTML = t;
