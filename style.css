@@ -21,7 +21,8 @@ body {
     font-size: 10vw;
 }
 #clipboard {
-    display: none;
+    position: fixed;
+    top: -727px;
 }
 .highlighted {
     color: #2b303b;
