@@ -1,4 +1,4 @@
-keyboard driven stopwatch timer
+simple keyboard driven stopwatch timer
 
 available at: https://potatoritos.github.io/timer/
 
@@ -8,7 +8,7 @@ available at: https://potatoritos.github.io/timer/
 
 `r`: Reset
 
-`y`: Copy elapsed time
+`y`: Copy time to clipboard
 
 `e`: Toggle editing mode
 
