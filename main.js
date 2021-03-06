@@ -27,7 +27,7 @@ class Timer {
         this.paused = !this.paused;
     }
     reset() {
-        this.startTime = Date.now();
+        this.setTime(0);
         if (!this.paused)
             this.toggle();
     }
