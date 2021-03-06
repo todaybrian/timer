@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'DejaVuSansMono';
+    src: local('DejaVuSansMono'),
+        url('DejaVuSansMono_min.woff2') format('woff2');
+}
+html {
+    height: 100vh;
+    width: 100vw;
+    display: table;
+}
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #2b303b;
+}
+#timer {
+    margin: 0;
+    text-align: center;
+    font-family: 'DejaVuSansMono', monospace;
+    color: #bf616a;
+    font-size: 10vw;
+}
+#clipboard {
+    display: none;
+}
+.highlighted {
+    color: #2b303b;
+    background-color: #bf616a;
+}
