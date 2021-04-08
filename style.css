@@ -1,7 +1,7 @@
 @font-face {
-    font-family: 'DejaVuSansMono';
-    src: local('DejaVuSansMono'),
-        url('fonts/DejaVuSansMono_min.woff2') format('woff2');
+    font-family: 'JetBrainsMono';
+    src: local('JetBrainsMono-Regular'),
+        url('fonts/JetBrainsMono-Regular.woff2') format('woff2');
 }
 html {
     height: 100vh;
@@ -11,13 +11,13 @@ html {
 body {
     display: table-cell;
     vertical-align: middle;
-    background-color: #2b303b;
+    background-color: #1e222a;
 }
 #timer {
     margin: 0;
     text-align: center;
-    font-family: 'DejaVuSansMono', monospace;
-    color: #bf616a;
+    font-family: 'JetBrainsMono', monospace;
+    color: #e06c75;
     font-size: 10vw;
 }
 #clipboard {
@@ -25,6 +25,6 @@ body {
     top: -727px;
 }
 .highlighted {
-    color: #2b303b;
-    background-color: #bf616a;
+    color: #1e222a;
+    background-color: #e06c75;
 }
