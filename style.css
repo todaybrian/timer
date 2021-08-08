@@ -18,7 +18,7 @@ body {
     text-align: center;
     font-family: 'JetBrainsMono', monospace;
     color: #e06c75;
-    font-size: 15vw;
+    font-size: min(15vw, 80vh);
 }
 #clipboard {
     position: fixed;
